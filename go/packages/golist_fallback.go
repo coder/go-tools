@@ -15,7 +15,7 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/go/internal/cgo"
+	"go.coder.com/go-tools/go/internal/cgo"
 )
 
 // TODO(matloob): Delete this file once Go 1.12 is released.
@@ -342,7 +342,7 @@ func cleanAbsPaths(cfg *Config, words []string) []string {
 
 // vendorlessPath returns the devendorized version of the import path ipath.
 // For example, VendorlessPath("foo/bar/vendor/a/b") returns "a/b".
-// Copied from golang.org/x/tools/imports/fix.go.
+// Copied from go.coder.com/go-tools/imports/fix.go.
 func vendorlessPath(ipath string) string {
 	// Devendorize for use in import statement.
 	if i := strings.LastIndex(ipath, "/vendor/"); i >= 0 {

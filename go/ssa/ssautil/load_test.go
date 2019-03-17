@@ -15,8 +15,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/ssa/ssautil"
+	"go.coder.com/go-tools/go/packages"
+	"go.coder.com/go-tools/go/ssa/ssautil"
 )
 
 const hello = `package main

@@ -9,9 +9,9 @@ package loopclosure
 import (
 	"go/ast"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/inspect"
-	"golang.org/x/tools/go/ast/inspector"
+	"go.coder.com/go-tools/go/analysis"
+	"go.coder.com/go-tools/go/analysis/passes/inspect"
+	"go.coder.com/go-tools/go/ast/inspector"
 )
 
 // TODO(adonovan): also report an error for the following structure,

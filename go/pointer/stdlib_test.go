@@ -14,7 +14,7 @@ package pointer
 //
 // Because it is relatively slow, the --stdlib flag must be enabled for
 // this test to run:
-//    % go test -v golang.org/x/tools/go/pointer --stdlib
+//    % go test -v go.coder.com/go-tools/go/pointer --stdlib
 
 import (
 	"flag"
@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
+	"go.coder.com/go-tools/go/buildutil"
+	"go.coder.com/go-tools/go/loader"
+	"go.coder.com/go-tools/go/ssa"
+	"go.coder.com/go-tools/go/ssa/ssautil"
 )
 
 var runStdlibTest = flag.Bool("stdlib", false, "Run the (slow) stdlib test")

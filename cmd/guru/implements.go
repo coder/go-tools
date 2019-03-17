@@ -13,10 +13,10 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/cmd/guru/serial"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/refactor/importgraph"
+	"go.coder.com/go-tools/cmd/guru/serial"
+	"go.coder.com/go-tools/go/loader"
+	"go.coder.com/go-tools/go/types/typeutil"
+	"go.coder.com/go-tools/refactor/importgraph"
 )
 
 // The implements function displays the "implements" relation as it pertains to the

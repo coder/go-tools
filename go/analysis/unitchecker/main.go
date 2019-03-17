@@ -1,7 +1,7 @@
 // +build ignore
 
 // This file provides an example command for static checkers
-// conforming to the golang.org/x/tools/go/analysis API.
+// conforming to the go.coder.com/go-tools/go/analysis API.
 // It serves as a model for the behavior of the cmd/vet tool in $GOROOT.
 // Being based on the unitchecker driver, it must be run by go vet:
 //
@@ -12,29 +12,29 @@
 package main
 
 import (
-	"golang.org/x/tools/go/analysis/unitchecker"
+	"go.coder.com/go-tools/go/analysis/unitchecker"
 
-	"golang.org/x/tools/go/analysis/passes/asmdecl"
-	"golang.org/x/tools/go/analysis/passes/assign"
-	"golang.org/x/tools/go/analysis/passes/atomic"
-	"golang.org/x/tools/go/analysis/passes/bools"
-	"golang.org/x/tools/go/analysis/passes/buildtag"
-	"golang.org/x/tools/go/analysis/passes/cgocall"
-	"golang.org/x/tools/go/analysis/passes/composite"
-	"golang.org/x/tools/go/analysis/passes/copylock"
-	"golang.org/x/tools/go/analysis/passes/httpresponse"
-	"golang.org/x/tools/go/analysis/passes/loopclosure"
-	"golang.org/x/tools/go/analysis/passes/lostcancel"
-	"golang.org/x/tools/go/analysis/passes/nilfunc"
-	"golang.org/x/tools/go/analysis/passes/printf"
-	"golang.org/x/tools/go/analysis/passes/shift"
-	"golang.org/x/tools/go/analysis/passes/stdmethods"
-	"golang.org/x/tools/go/analysis/passes/structtag"
-	"golang.org/x/tools/go/analysis/passes/tests"
-	"golang.org/x/tools/go/analysis/passes/unmarshal"
-	"golang.org/x/tools/go/analysis/passes/unreachable"
-	"golang.org/x/tools/go/analysis/passes/unsafeptr"
-	"golang.org/x/tools/go/analysis/passes/unusedresult"
+	"go.coder.com/go-tools/go/analysis/passes/asmdecl"
+	"go.coder.com/go-tools/go/analysis/passes/assign"
+	"go.coder.com/go-tools/go/analysis/passes/atomic"
+	"go.coder.com/go-tools/go/analysis/passes/bools"
+	"go.coder.com/go-tools/go/analysis/passes/buildtag"
+	"go.coder.com/go-tools/go/analysis/passes/cgocall"
+	"go.coder.com/go-tools/go/analysis/passes/composite"
+	"go.coder.com/go-tools/go/analysis/passes/copylock"
+	"go.coder.com/go-tools/go/analysis/passes/httpresponse"
+	"go.coder.com/go-tools/go/analysis/passes/loopclosure"
+	"go.coder.com/go-tools/go/analysis/passes/lostcancel"
+	"go.coder.com/go-tools/go/analysis/passes/nilfunc"
+	"go.coder.com/go-tools/go/analysis/passes/printf"
+	"go.coder.com/go-tools/go/analysis/passes/shift"
+	"go.coder.com/go-tools/go/analysis/passes/stdmethods"
+	"go.coder.com/go-tools/go/analysis/passes/structtag"
+	"go.coder.com/go-tools/go/analysis/passes/tests"
+	"go.coder.com/go-tools/go/analysis/passes/unmarshal"
+	"go.coder.com/go-tools/go/analysis/passes/unreachable"
+	"go.coder.com/go-tools/go/analysis/passes/unsafeptr"
+	"go.coder.com/go-tools/go/analysis/passes/unusedresult"
 )
 
 func main() {

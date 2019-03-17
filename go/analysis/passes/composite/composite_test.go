@@ -7,8 +7,8 @@ package composite_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/composite"
+	"go.coder.com/go-tools/go/analysis/analysistest"
+	"go.coder.com/go-tools/go/analysis/passes/composite"
 )
 
 func Test(t *testing.T) {

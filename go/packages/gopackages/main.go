@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // The gopackages command is a diagnostic tool that demonstrates
-// how to use golang.org/x/tools/go/packages to load, parse,
+// how to use go.coder.com/go-tools/go/packages to load, parse,
 // type-check, and print one or more Go packages.
 // Its precise output is unspecified and may change.
 package main
@@ -18,9 +18,9 @@ import (
 	"sort"
 	"strings"
 
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/types/typeutil"
-	"golang.org/x/tools/internal/tool"
+	"go.coder.com/go-tools/go/packages"
+	"go.coder.com/go-tools/go/types/typeutil"
+	"go.coder.com/go-tools/internal/tool"
 )
 
 func main() {

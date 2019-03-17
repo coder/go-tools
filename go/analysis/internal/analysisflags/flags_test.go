@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/internal/analysisflags"
+	"go.coder.com/go-tools/go/analysis"
+	"go.coder.com/go-tools/go/analysis/internal/analysisflags"
 )
 
 func main() {

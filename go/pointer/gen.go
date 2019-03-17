@@ -15,8 +15,8 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/ssa"
+	"go.coder.com/go-tools/go/callgraph"
+	"go.coder.com/go-tools/go/ssa"
 )
 
 var (

@@ -16,8 +16,8 @@ import (
 	"log"
 	"os"
 
-	"golang.org/x/tools/go/gcexportdata"
-	"golang.org/x/tools/go/types/typeutil"
+	"go.coder.com/go-tools/go/gcexportdata"
+	"go.coder.com/go-tools/go/types/typeutil"
 )
 
 var packageFlag = flag.String("package", "", "alternative package to print")

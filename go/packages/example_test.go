@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"golang.org/x/tools/go/packages"
+	"go.coder.com/go-tools/go/packages"
 )
 
 // Example demonstrates how to load the packages specified on the

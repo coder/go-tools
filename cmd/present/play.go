@@ -14,16 +14,16 @@ import (
 	"runtime"
 	"time"
 
-	"golang.org/x/tools/godoc/static"
-	"golang.org/x/tools/playground/socket"
-	"golang.org/x/tools/present"
+	"go.coder.com/go-tools/godoc/static"
+	"go.coder.com/go-tools/playground/socket"
+	"go.coder.com/go-tools/present"
 
 	// This will register handlers at /compile and /share that will proxy to the
 	// respective endpoints at play.golang.org. This allows the frontend to call
 	// these endpoints without needing cross-origin request sharing (CORS).
 	// Note that this is imported regardless of whether the endpoints are used or
 	// not (in the case of a local socket connection, they are not called).
-	_ "golang.org/x/tools/playground"
+	_ "go.coder.com/go-tools/playground"
 )
 
 var scripts = []string{"jquery.js", "jquery-ui.js", "playground.js", "play.js"}

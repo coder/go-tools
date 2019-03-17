@@ -15,12 +15,12 @@ import (
 	"os"
 	"sync"
 
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/jsonrpc2"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"go.coder.com/go-tools/go/packages"
+	"go.coder.com/go-tools/internal/jsonrpc2"
+	"go.coder.com/go-tools/internal/lsp/cache"
+	"go.coder.com/go-tools/internal/lsp/protocol"
+	"go.coder.com/go-tools/internal/lsp/source"
+	"go.coder.com/go-tools/internal/span"
 )
 
 // RunServer starts an LSP server on the supplied stream, and waits until the

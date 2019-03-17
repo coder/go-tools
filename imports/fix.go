@@ -26,9 +26,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/internal/gopathwalk"
+	"go.coder.com/go-tools/go/ast/astutil"
+	"go.coder.com/go-tools/go/packages"
+	"go.coder.com/go-tools/internal/gopathwalk"
 )
 
 // Debug controls verbose logging.

@@ -34,7 +34,7 @@ import (
 	"go/types"
 	"reflect"
 
-	"golang.org/x/tools/go/ssa"
+	"go.coder.com/go-tools/go/ssa"
 )
 
 func init() {

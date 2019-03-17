@@ -20,7 +20,7 @@ written in C and documented at
 Adepts of the original yacc will have no trouble adapting to this
 form of the tool.
 
-The directory $GOPATH/src/golang.org/x/tools/cmd/goyacc/testdata/expr
+The directory $GOPATH/src/go.coder.com/go-tools/cmd/goyacc/testdata/expr
 is a yacc program for a very simple expression parser. See expr.y and
 main.go in that directory for examples of how to write and build
 goyacc programs.

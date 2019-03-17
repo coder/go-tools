@@ -7,7 +7,7 @@
 //
 // All I/O is done via the build.Context file system interface, which must
 // be concurrency-safe.
-package buildutil // import "golang.org/x/tools/go/buildutil"
+package buildutil // import "go.coder.com/go-tools/go/buildutil"
 
 import (
 	"go/build"
@@ -127,8 +127,8 @@ func allPackages(ctxt *build.Context, root string, ch chan<- item) {
 // ExpandPatterns returns the set of packages matched by patterns,
 // which may have the following forms:
 //
-//		golang.org/x/tools/cmd/guru     # a single package
-//		golang.org/x/tools/...          # all packages beneath dir
+//		go.coder.com/go-tools/cmd/guru     # a single package
+//		go.coder.com/go-tools/...          # all packages beneath dir
 //		...                             # the entire workspace.
 //
 // Order is significant: a pattern preceded by '-' removes matching

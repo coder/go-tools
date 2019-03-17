@@ -7,8 +7,8 @@ package asmdecl_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/asmdecl"
+	"go.coder.com/go-tools/go/analysis/analysistest"
+	"go.coder.com/go-tools/go/analysis/passes/asmdecl"
 )
 
 func Test(t *testing.T) {

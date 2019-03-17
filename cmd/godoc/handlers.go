@@ -20,10 +20,10 @@ import (
 	"strings"
 	"text/template"
 
-	"golang.org/x/tools/godoc"
-	"golang.org/x/tools/godoc/golangorgenv"
-	"golang.org/x/tools/godoc/redirect"
-	"golang.org/x/tools/godoc/vfs"
+	"go.coder.com/go-tools/godoc"
+	"go.coder.com/go-tools/godoc/golangorgenv"
+	"go.coder.com/go-tools/godoc/redirect"
+	"go.coder.com/go-tools/godoc/vfs"
 )
 
 var (

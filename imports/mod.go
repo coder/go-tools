@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"golang.org/x/tools/internal/gopathwalk"
-	"golang.org/x/tools/internal/module"
+	"go.coder.com/go-tools/internal/gopathwalk"
+	"go.coder.com/go-tools/internal/module"
 )
 
 // moduleResolver implements resolver for modules using the go command as little

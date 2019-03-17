@@ -24,4 +24,4 @@ For Go releases 1.5 and later, this tool lives in the
 standard repository. The code here is not maintained.
 
 */
-package main // import "golang.org/x/tools/cmd/cover"
+package main // import "go.coder.com/go-tools/cmd/cover"

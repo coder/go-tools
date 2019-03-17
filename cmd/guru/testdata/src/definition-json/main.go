@@ -1,7 +1,7 @@
 package definition
 
 // Tests of 'definition' query, -json output.
-// See golang.org/x/tools/cmd/guru/guru_test.go for explanation.
+// See go.coder.com/go-tools/cmd/guru/guru_test.go for explanation.
 // See main.golden for expected query results.
 
 // TODO(adonovan): test: selection of member of same package defined in another file.

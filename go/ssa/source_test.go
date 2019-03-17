@@ -19,11 +19,11 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/go/expect"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
+	"go.coder.com/go-tools/go/ast/astutil"
+	"go.coder.com/go-tools/go/expect"
+	"go.coder.com/go-tools/go/loader"
+	"go.coder.com/go-tools/go/ssa"
+	"go.coder.com/go-tools/go/ssa/ssautil"
 )
 
 func TestObjValueLookup(t *testing.T) {

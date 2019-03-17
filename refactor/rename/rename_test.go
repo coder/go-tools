@@ -16,7 +16,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/buildutil"
+	"go.coder.com/go-tools/go/buildutil"
 )
 
 // TODO(adonovan): test reported source positions, somehow.
@@ -1291,7 +1291,7 @@ func TestDiff(t *testing.T) {
 	Diff = true
 	stdout = new(bytes.Buffer)
 
-	if err := Main(&build.Default, "", `"golang.org/x/tools/refactor/rename".justHereForTestingDiff`, "Foo"); err != nil {
+	if err := Main(&build.Default, "", `"go.coder.com/go-tools/refactor/rename".justHereForTestingDiff`, "Foo"); err != nil {
 		t.Fatal(err)
 	}
 

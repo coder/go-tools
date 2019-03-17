@@ -10,8 +10,8 @@ import (
 	"go/token"
 	"io/ioutil"
 
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"go.coder.com/go-tools/internal/lsp/source"
+	"go.coder.com/go-tools/internal/span"
 )
 
 // File holds all the information we know about a file.

@@ -19,10 +19,10 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/lsp/cmd"
-	"golang.org/x/tools/internal/span"
-	"golang.org/x/tools/internal/tool"
+	"go.coder.com/go-tools/go/packages/packagestest"
+	"go.coder.com/go-tools/internal/lsp/cmd"
+	"go.coder.com/go-tools/internal/span"
+	"go.coder.com/go-tools/internal/tool"
 )
 
 var verifyGuru = flag.Bool("verify-guru", false, "Check that the guru compatability matches")

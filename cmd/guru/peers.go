@@ -11,10 +11,10 @@ import (
 	"go/types"
 	"sort"
 
-	"golang.org/x/tools/cmd/guru/serial"
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/ssautil"
+	"go.coder.com/go-tools/cmd/guru/serial"
+	"go.coder.com/go-tools/go/loader"
+	"go.coder.com/go-tools/go/ssa"
+	"go.coder.com/go-tools/go/ssa/ssautil"
 )
 
 // peers enumerates, for a given channel send (or receive) operation,

@@ -17,11 +17,11 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/packages/packagestest"
-	"golang.org/x/tools/internal/lsp/cache"
-	"golang.org/x/tools/internal/lsp/protocol"
-	"golang.org/x/tools/internal/lsp/source"
-	"golang.org/x/tools/internal/span"
+	"go.coder.com/go-tools/go/packages/packagestest"
+	"go.coder.com/go-tools/internal/lsp/cache"
+	"go.coder.com/go-tools/internal/lsp/protocol"
+	"go.coder.com/go-tools/internal/lsp/source"
+	"go.coder.com/go-tools/internal/span"
 )
 
 // TODO(rstambler): Remove this once Go 1.12 is released as we end support for
@@ -52,7 +52,7 @@ func testLSP(t *testing.T, exporter packagestest.Exporter) {
 	}
 	modules := []packagestest.Module{
 		{
-			Name:  "golang.org/x/tools/internal/lsp",
+			Name:  "go.coder.com/go-tools/internal/lsp",
 			Files: files,
 		},
 	}

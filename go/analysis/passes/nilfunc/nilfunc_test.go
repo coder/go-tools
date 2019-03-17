@@ -7,8 +7,8 @@ package nilfunc_test
 import (
 	"testing"
 
-	"golang.org/x/tools/go/analysis/analysistest"
-	"golang.org/x/tools/go/analysis/passes/nilfunc"
+	"go.coder.com/go-tools/go/analysis/analysistest"
+	"go.coder.com/go-tools/go/analysis/passes/nilfunc"
 )
 
 func Test(t *testing.T) {

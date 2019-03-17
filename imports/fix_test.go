@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/tools/go/packages/packagestest"
+	"go.coder.com/go-tools/go/packages/packagestest"
 )
 
 var tests = []struct {

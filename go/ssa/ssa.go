@@ -15,7 +15,7 @@ import (
 	"go/types"
 	"sync"
 
-	"golang.org/x/tools/go/types/typeutil"
+	"go.coder.com/go-tools/go/types/typeutil"
 )
 
 // A Program is a partial or complete Go program converted to SSA form.

@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/godoc/vfs"
-	"golang.org/x/tools/godoc/vfs/mapfs"
+	"go.coder.com/go-tools/godoc/vfs"
+	"go.coder.com/go-tools/godoc/vfs/mapfs"
 )
 
 func TestNewNameSpace(t *testing.T) {

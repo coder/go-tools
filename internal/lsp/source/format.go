@@ -13,10 +13,10 @@ import (
 	"go/format"
 	"strings"
 
-	"golang.org/x/tools/go/ast/astutil"
-	"golang.org/x/tools/imports"
-	"golang.org/x/tools/internal/lsp/diff"
-	"golang.org/x/tools/internal/span"
+	"go.coder.com/go-tools/go/ast/astutil"
+	"go.coder.com/go-tools/imports"
+	"go.coder.com/go-tools/internal/lsp/diff"
+	"go.coder.com/go-tools/internal/span"
 )
 
 // Format formats a file with a given range.

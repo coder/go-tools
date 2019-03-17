@@ -12,8 +12,8 @@ import (
 	"strings"
 	"unicode"
 
-	"golang.org/x/tools/go/analysis"
-	"golang.org/x/tools/go/analysis/passes/internal/analysisutil"
+	"go.coder.com/go-tools/go/analysis"
+	"go.coder.com/go-tools/go/analysis/passes/internal/analysisutil"
 )
 
 var Analyzer = &analysis.Analyzer{

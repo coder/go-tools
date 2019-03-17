@@ -6,7 +6,7 @@
 // with the same name in $GOROOT/src/go/internal/gccgoimporter.
 
 // Package gccgoimporter implements Import for gccgo-generated object files.
-package gccgoimporter // import "golang.org/x/tools/go/internal/gccgoimporter"
+package gccgoimporter // import "go.coder.com/go-tools/go/internal/gccgoimporter"
 
 import (
 	"debug/elf"

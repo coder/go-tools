@@ -8,7 +8,7 @@ import (
 	"context"
 	"log"
 
-	"golang.org/x/tools/internal/jsonrpc2"
+	"go.coder.com/go-tools/internal/jsonrpc2"
 )
 
 func canceller(ctx context.Context, conn *jsonrpc2.Conn, req *jsonrpc2.Request) {

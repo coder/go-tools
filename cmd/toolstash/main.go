@@ -121,7 +121,7 @@
 // contain the substring ``devel''. The VERSION file must be created before
 // building either version of the toolchain.
 //
-package main // import "golang.org/x/tools/cmd/toolstash"
+package main // import "go.coder.com/go-tools/cmd/toolstash"
 
 import (
 	"bufio"
@@ -147,7 +147,7 @@ Examples:
 	toolstash compile x.go
 	toolstash -cmp compile x.go
 
-For details, godoc golang.org/x/tools/cmd/toolstash
+For details, godoc go.coder.com/go-tools/cmd/toolstash
 `
 
 func usage() {

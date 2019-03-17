@@ -8,7 +8,7 @@
 //
 // Run with -help flag or help subcommand for usage information.
 //
-package main // import "golang.org/x/tools/cmd/guru"
+package main // import "go.coder.com/go-tools/cmd/guru"
 
 import (
 	"bufio"
@@ -25,7 +25,7 @@ import (
 	"strings"
 	"sync"
 
-	"golang.org/x/tools/go/buildutil"
+	"go.coder.com/go-tools/go/buildutil"
 )
 
 // flags
@@ -77,7 +77,7 @@ of the syntax element to query.  For example:
 	bar.go:#123
 
 The -json flag causes guru to emit output in JSON format;
-	golang.org/x/tools/cmd/guru/serial defines its schema.
+	go.coder.com/go-tools/cmd/guru/serial defines its schema.
 	Otherwise, the output is in an editor-friendly format in which
 	every line has the form "pos: text", where pos is "-" if unknown.
 
@@ -90,8 +90,8 @@ The -modified flag causes guru to read an archive from standard input.
 
 The -scope flag restricts analysis to the specified packages.
 	Its value is a comma-separated list of patterns of these forms:
-		golang.org/x/tools/cmd/guru     # a single package
-		golang.org/x/tools/...          # all packages beneath dir
+		go.coder.com/go-tools/cmd/guru     # a single package
+		go.coder.com/go-tools/...          # all packages beneath dir
 		...                             # the entire workspace.
 	A pattern preceded by '-' is negative, so the scope
 		encoding/...,-encoding/xml
@@ -101,7 +101,7 @@ User manual: http://golang.org/s/using-guru
 
 Example: describe syntax at offset 530 in this file (an import spec):
 
-  $ guru describe src/golang.org/x/tools/cmd/guru/main.go:#530
+  $ guru describe src/go.coder.com/go-tools/cmd/guru/main.go:#530
 `
 
 func printHelp() {

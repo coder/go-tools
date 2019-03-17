@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/tools/go/packages"
+	"go.coder.com/go-tools/go/packages"
 )
 
 // This test loads the metadata for the standard library,

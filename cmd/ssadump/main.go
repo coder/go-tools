@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // ssadump: a tool for displaying and interpreting the SSA form of Go programs.
-package main // import "golang.org/x/tools/cmd/ssadump"
+package main // import "go.coder.com/go-tools/cmd/ssadump"
 
 import (
 	"flag"
@@ -14,11 +14,11 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"golang.org/x/tools/go/buildutil"
-	"golang.org/x/tools/go/packages"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/ssa/interp"
-	"golang.org/x/tools/go/ssa/ssautil"
+	"go.coder.com/go-tools/go/buildutil"
+	"go.coder.com/go-tools/go/packages"
+	"go.coder.com/go-tools/go/ssa"
+	"go.coder.com/go-tools/go/ssa/interp"
+	"go.coder.com/go-tools/go/ssa/ssautil"
 )
 
 // flags

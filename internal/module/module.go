@@ -24,7 +24,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"golang.org/x/tools/internal/semver"
+	"go.coder.com/go-tools/internal/semver"
 )
 
 // A Version is defined by a module path and version pair.

@@ -14,8 +14,8 @@ import (
 	"sync"
 	"testing"
 
-	"golang.org/x/tools/internal/module"
-	"golang.org/x/tools/internal/txtar"
+	"go.coder.com/go-tools/internal/module"
+	"go.coder.com/go-tools/internal/txtar"
 )
 
 // Tests that we handle a nested module. This is different from other tests

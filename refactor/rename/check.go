@@ -12,8 +12,8 @@ import (
 	"go/token"
 	"go/types"
 
-	"golang.org/x/tools/go/loader"
-	"golang.org/x/tools/refactor/satisfy"
+	"go.coder.com/go-tools/go/loader"
+	"go.coder.com/go-tools/refactor/satisfy"
 )
 
 // errorf reports an error (e.g. conflict) and prevents file modification.
@@ -846,7 +846,7 @@ func someUse(info *loader.PackageInfo, obj types.Object) *ast.Ident {
 	return nil
 }
 
-// -- Plundered from golang.org/x/tools/go/ssa -----------------
+// -- Plundered from go.coder.com/go-tools/go/ssa -----------------
 
 func isInterface(T types.Type) bool { return types.IsInterface(T) }
 

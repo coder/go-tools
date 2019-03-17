@@ -10,10 +10,10 @@ import (
 	"go/token"
 	"io"
 
-	"golang.org/x/tools/container/intsets"
-	"golang.org/x/tools/go/callgraph"
-	"golang.org/x/tools/go/ssa"
-	"golang.org/x/tools/go/types/typeutil"
+	"go.coder.com/go-tools/container/intsets"
+	"go.coder.com/go-tools/go/callgraph"
+	"go.coder.com/go-tools/go/ssa"
+	"go.coder.com/go-tools/go/types/typeutil"
 )
 
 // A Config formulates a pointer analysis problem for Analyze. It is
